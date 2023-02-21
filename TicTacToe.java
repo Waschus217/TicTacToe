@@ -7,6 +7,7 @@ public class TicTacToe {
         anzeigenSpielbrett();
         System.out.println("Du spielst als X und der Computer als O.");
         while(!istSpielVorbei()) {
+            System.out.println("Du bist am Zug:");
             spielerBewegung();
             anzeigenSpielbrett();
             if(istSpielVorbei()) {
